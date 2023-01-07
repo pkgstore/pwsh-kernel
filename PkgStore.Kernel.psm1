@@ -89,7 +89,7 @@ function Test-Module() {
   )
 
   ForEach ( ${N} in ${Names} ) {
-    if ( -not ( Get-Module -Name "${N}" ) ) {
+    if ( -not ( Get-Module -ListAvailable -Name "${N}" ) ) {
       Write-Error -Message "Module '${N}' not installed!" -ErrorAction "Stop"
     }
   }
