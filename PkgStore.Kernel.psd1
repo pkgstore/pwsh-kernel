@@ -8,6 +8,11 @@
   Description = 'A kernel for PowerShell modules from Package Store.'
   PowerShellVersion = '7.1'
   FunctionsToExport = @('Write-Msg', 'Test-Module')
-  CmdletsToExport = @()
-  AliasesToExport = @()
+  PrivateData = @{
+    PSData = @{
+      Tags = @('pwsh', 'kernel')
+      LicenseUri = 'https://github.com/pkgstore/pwsh-kernel/blob/main/LICENSE'
+      ProjectUri = 'https://github.com/pkgstore/pwsh-kernel'
+    }
+  }
 }
