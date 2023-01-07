@@ -58,3 +58,39 @@ function Write-Msg() {
     }
   }
 }
+
+function Test-Module() {
+  <#
+    .SYNOPSIS
+      Checking if a PowerShell module is installed.
+
+    .DESCRIPTION
+
+    .PARAMETER Names
+      Module names.
+      Alias: '-N'.
+
+    .EXAMPLE
+      Test-Module -N 'PkgStore.Kernel'
+
+    .LINK
+      Package Store: https://github.com/pkgstore
+
+    .NOTES
+      Author: Kitsune Solar <mail@kitsune.solar>
+  #>
+
+  [CmdletBinding()]
+
+  Param(
+    [Parameter(Mandatory)]
+    [Alias('N')]
+    [string[]]${Names}
+  )
+
+  ForEach ( ${N} in ${Names} ) {
+    if ( -not ( Get-Module -Name "${N}" ) ) {
+      Write-Error -Message "Module '${N}' not installed!" -ErrorAction "Stop"
+    }
+  }
+}

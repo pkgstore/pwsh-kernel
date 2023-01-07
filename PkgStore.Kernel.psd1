@@ -7,7 +7,7 @@
   Copyright = '(c) 2023 v77 Development. All rights reserved.'
   Description = 'A kernel for PowerShell modules from Package Store.'
   PowerShellVersion = '7.1'
-  FunctionsToExport = @('Write-Msg')
+  FunctionsToExport = @('Write-Msg', 'Test-Module')
   CmdletsToExport = @()
   AliasesToExport = @()
 }
