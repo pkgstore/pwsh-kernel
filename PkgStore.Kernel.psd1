@@ -5,7 +5,7 @@
   Author = 'Kitsune Solar'
   CompanyName = 'v77 Development'
   Copyright = '(c) 2023 v77 Development. All rights reserved.'
-  Description = ''
+  Description = 'A kernel for PowerShell modules from Package Store.'
   PowerShellVersion = '7.1'
   FunctionsToExport = @('Write-Msg')
   CmdletsToExport = @()

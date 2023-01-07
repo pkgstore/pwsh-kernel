@@ -1,6 +1,7 @@
 function Write-Msg() {
   <#
     .SYNOPSIS
+      Message function.
 
     .DESCRIPTION
 
@@ -13,7 +14,7 @@ function Write-Msg() {
       Alias: '-M'.
 
     .PARAMETER Action
-      Action.
+      Action type.
       Alias: '-A'.
 
     .EXAMPLE
