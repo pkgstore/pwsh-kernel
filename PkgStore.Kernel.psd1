@@ -1,6 +1,6 @@
 @{
   RootModule = 'PkgStore.Kernel.psm1'
-  ModuleVersion = '1.0.0'
+  ModuleVersion = '0.0.1'
   GUID = '58655ac6-8750-4397-a15f-29f9e18e257d'
   Author = 'Kitsune Solar'
   CompanyName = 'iHub TO'
