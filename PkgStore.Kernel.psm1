@@ -5,7 +5,7 @@
   .AUTHOREMAIL  mail@kitsune.solar
   .COMPANYNAME  iHub.TO
   .COPYRIGHT    2023 Kitsune Solar. All rights reserved.
-  .LICENSEURI   https://choosealicense.com/licenses/mit/
+  .LICENSEURI   https://github.com/pkgstore/pwsh-kernel/blob/main/LICENSE
   .PROJECTURI
 #>
 

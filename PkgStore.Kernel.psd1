@@ -13,7 +13,7 @@
   PrivateData = @{
     PSData = @{
       Tags = @('pwsh', 'kernel')
-      LicenseUri = 'https://choosealicense.com/licenses/mit/'
+      LicenseUri = 'https://github.com/pkgstore/pwsh-kernel/blob/main/LICENSE'
       ProjectUri = 'https://github.com/pkgstore/pwsh-kernel'
     }
   }
