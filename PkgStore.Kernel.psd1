@@ -69,7 +69,7 @@ PowerShellVersion = '7.2'
 # NestedModules = @()
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-FunctionsToExport = 'Copy-Data', 'Move-Data', 'New-Data', 'Remove-Data', 'Test-Data', 
+FunctionsToExport = 'Copy-Data', 'Move-Data', 'New-Data', 'Remove-Data', 'Test-Data',
                'Test-Module', 'Write-Msg'
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
@@ -96,7 +96,7 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        Tags = 'pwsh','kernel'
+        Tags = 'pwsh', 'kernel'
 
         # A URL to the license for this module.
         LicenseUri = 'https://github.com/pkgstore/pwsh-kernel/blob/main/LICENSE'

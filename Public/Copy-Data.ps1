@@ -6,9 +6,9 @@ function Copy-Data() {
   #>
 
   param (
-    [Alias('S')][string]$Src,
-    [Alias('D')][string]$Dst
+    [Alias('S')][string]$SRC,
+    [Alias('D')][string]$DST
   )
 
-  Copy-Item -LiteralPath "${Src}" -Destination "${Dst}" -Force
+  Copy-Item -LiteralPath "${SRC}" -Destination "${DST}" -Force
 }

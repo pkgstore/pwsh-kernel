@@ -6,7 +6,7 @@ function Test-Module() {
   #>
 
   Param(
-    [Parameter(Mandatory)][Alias('N')][string[]]$Names
+    [Alias('N')][string[]]$Names
   )
 
   $Names | ForEach-Object {

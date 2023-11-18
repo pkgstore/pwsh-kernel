@@ -6,9 +6,9 @@ function Move-Data() {
   #>
 
   param (
-    [Alias('S')][string]$Src,
-    [Alias('D')][string]$Dst
+    [Alias('S')][string]$SRC,
+    [Alias('D')][string]$DST
   )
 
-  Move-Item -LiteralPath "${Src}" -Destination "${Dst}" -Force
+  Move-Item -LiteralPath "${SRC}" -Destination "${DST}" -Force
 }

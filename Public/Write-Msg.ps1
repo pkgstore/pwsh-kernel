@@ -6,8 +6,8 @@ function Write-Msg() {
   #>
 
   param (
-    [Alias('T')][string]$Type,
-    [Alias('M')][string]$Message,
+    [string]$Type,
+    [string]$Message,
     [Alias('A')][string]$Action = 'Continue'
   )
 
