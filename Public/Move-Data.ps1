@@ -1,8 +1,19 @@
 function Move-Data() {
   <#
     .SYNOPSIS
+    Moving data.
 
     .DESCRIPTION
+    Moving data using the 'Move-Item' cmdlet with '-LiteralPath'.
+
+    .PARAMETER SRC
+    Source data.
+
+    .PARAMETER DST
+    Destination.
+
+    .EXAMPLE
+    Copy-Data -SRC 'C:\File.TXT' -DST 'D:\File.TXT'
   #>
 
   param(

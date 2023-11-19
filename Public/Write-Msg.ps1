@@ -1,8 +1,29 @@
 function Write-Msg() {
   <#
     .SYNOPSIS
+    Display messages.
 
     .DESCRIPTION
+    Display messages depending on their type.
+
+    .PARAMETER Type
+    The type of message to be displayed:
+      'HL' | Write-Host (Title).
+      'I'  | Write-Information.
+      'W'  | Write-Warning.
+      'E'  | Write-Error.
+
+    .PARAMETER Message
+    Contents of the message to be displayed.
+
+    .PARAMETER Action
+    Action when a message is displayed.
+
+    .EXAMPLE
+    Write-Msg -Type 'HL' -Message 'Title message'
+
+    .EXAMPLE
+    Write-Msg -Type 'E' -Message 'File not found!' -Action 'Stop'
   #>
 
   param(
