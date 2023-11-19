@@ -5,7 +5,7 @@ function New-Data() {
     .DESCRIPTION
   #>
 
-  param (
+  param(
     [Alias('T')][string]$Type,
     [Alias('P')][string]$Path,
     [Alias('N')][string]$Name,

@@ -5,7 +5,7 @@ function Test-Module() {
     .DESCRIPTION
   #>
 
-  Param(
+  param(
     [Alias('N')][string[]]$Names
   )
 

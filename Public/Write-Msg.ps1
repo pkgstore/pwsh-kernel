@@ -5,7 +5,7 @@ function Write-Msg() {
     .DESCRIPTION
   #>
 
-  param (
+  param(
     [string]$Type,
     [string]$Message,
     [Alias('A')][string]$Action = 'Continue'

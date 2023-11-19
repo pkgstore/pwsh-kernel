@@ -5,7 +5,7 @@ function Move-Data() {
     .DESCRIPTION
   #>
 
-  param (
+  param(
     [Alias('S')][string]$SRC,
     [Alias('D')][string]$DST
   )

@@ -5,7 +5,7 @@ function Remove-Data() {
     .DESCRIPTION
   #>
 
-  param (
+  param(
     [Alias('P')][string]$Path
   )
 
