@@ -5,5 +5,5 @@ Generic module for PowerShell. Used in PkgStore modules. Contains common functio
 ## Install
 
 ```powershell
-Install-CustomModule -Name 'Kernel' -GitHubPath 'pkgstore/pwsh-kernel'
+Install-CustomModule -N 'Kernel' -GHP 'pkgstore/pwsh-kernel'
 ```
